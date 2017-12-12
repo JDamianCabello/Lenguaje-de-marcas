@@ -1,0 +1,38 @@
+﻿body
+{
+	background-color: #c3e1f0;
+	font-family: serif;
+}
+
+h1
+{
+
+	font-size: 22px;
+	font-family: serif;
+	text-align: center;
+}
+
+div.partes
+{
+	background-color: #0080FF;
+	color:#FFF;
+	font-size: 18px;
+	font-family: serif;
+
+}
+
+div.contenido
+{
+	background-color: #68aae7;
+}
+
+span.datos
+{
+	color: #cc316f;
+	text-decoration: underline;
+}
+
+span.duracion
+{
+	color: #FFFF08;
+}
