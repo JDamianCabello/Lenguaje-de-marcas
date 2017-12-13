@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		#recuadro{
+			width: 850px;
+		}
+		
+		label.retintada{
+			font-weight: bold;
+		}
+		
+		div.izquierda{
+			float:left;
+		}
+		
+		div.derecha{
+			float:right;
+			margin-right: 50px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h2>Rellena tu CV</h2>
+	<fieldset id="recuadro">
+		<legend>Datos personales</legend>
+		<div class="izquierda">
+			<label>Nombre</label><br/>
+			<input type="text" maxlength="25"><br/>
+			<label>Apellidos</label><br/>
+			<input type="text" maxlength="50" size="50px"><br/>
+			<label>Contraseña</label><br/>
+			<input type="password"><br/>
+			<label>DNI</label><br/>
+			<input type="text" maxlength="11" size="8em"><br/>
+			<label>Sexo</label><br/>
+			<input type="radio" name="sexo">
+			<label>Hombre</label><br/>
+			<input type="radio" name="sexo">
+			<label>Mujer</label><br/>
+			<label>Incluir mi foto</label>
+			<input type="file"><br/><br/><br/>
+			<input type="checkbox">
+			<label>Suscribirme al boletín de novedades</label>
+		</div>
+		<div class="derecha">
+			<label class="retintada">Provincia</label><br/>
+			<select>
+				<optgroup>
+					<option value="0">-selecciona-</option>
+					<option value="1">Otra provincia</option>
+					<option value="2">No hay dos sin tres provincias</option>
+					<option value="3">Última provincia</option>
+				</optgroup>
+			</select><br/><br/>
+			<label class="retintada">Fecha de nacimiento</label><br/>
+			<input type="text" maxlength="2" size="1em">
+			<label class="retintada">de</label>
+			<select>
+				<optgroup>
+					<option value="0">Un mes</option>
+					<option value="1">dos meses</option>
+					<option value="2">tres meses</option>
+					<option value="3">otro mes</option>
+				</optgroup>
+			</select>
+			<label class="retintada">de</label>
+			<input type="text" maxlength="4" size="2em"><br/><br/>
+			<label class="retintada">Temas de interés</label><br/>
+			<select multiple>
+				<optgroup>
+					<option value="1">Aprobar sin estudiar</option>
+					<option value="2">Aprobar estudiando</option>
+					<option value="3">No estudiar y no aprobar</option>
+					<option value="4">No poner más opciones</option>
+					<option value="5">Y empezar a poner CSS aqui</option>
+				</optgroup>
+			</select><br/><br/>
+			<input type="submit" value="Guardar los cambios">
+			<input type="reset" value="Borrar los datos introducidos">
+		</div>
+	</fieldset>
+</body>
+</html>
