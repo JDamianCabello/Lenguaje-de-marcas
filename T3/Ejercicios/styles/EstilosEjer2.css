@@ -1,0 +1,37 @@
+﻿#nivel1{
+			border: black solid 5px;
+			text-align: center;
+			font-weight: bold;
+			font-size: 2em;
+			text-transform: uppercase;
+		}
+		
+		#nivel2{
+			border-left: red double 12px;
+		}
+		
+		#nivel3{
+			border-top: cyan dotted 3px;
+			border-bottom: cyan dotted 9px;
+			border-left: magenta dotted 15px;
+			border-right: magenta dotted 6px;
+		}
+		
+		#nivel4{
+			border-top: green double 12px;
+			border-bottom: blue double 12px;
+		}
+		
+		#nivel5{
+			border-top: red dashed 5px;
+			border-bottom: black dotted 5px;
+			border-left: black solid 5px;
+			border-right: black solid 5px;
+		}
+		
+		#nivel6{
+			border-top: black dotted 5px;
+			border-bottom: black dashed 5px;
+			border-left: red dotted 4px;
+			border-right: black solid 5px;
+		}
