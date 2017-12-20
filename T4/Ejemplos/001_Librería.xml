@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<libreria>
+  <libro cod="1">
+    <titulo>Fuente Ovejuna</titulo>
+    <autor>Lope de Vega</autor>
+    <isbn>84-255-004-7</isbn>
+    <pvp>32€</pvp>
+  </libro>
+
+  <libro cod="2">
+    <titulo>Programación en CSharp</titulo>
+    <autor>Fco. Charte</autor>
+    <isbn>89-255-114-4</isbn>
+    <pvp>52€</pvp>
+  </libro>
+</libreria>
