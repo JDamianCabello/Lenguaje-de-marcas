@@ -1,0 +1,17 @@
+﻿#recuadro{
+			width: 850px;
+		}
+		
+		label.retintada{
+			font-weight: bold;
+		}
+		
+		div.izquierda{
+			float:left;
+		}
+		
+		div.derecha{
+			float:right;
+			margin-right: 50px;
+			margin-top: 20px;
+		}

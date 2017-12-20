@@ -1,0 +1,9 @@
+﻿#titulo{
+	color: blue;
+	font-weight: bold;
+	font-size: 2em;
+}
+		
+#img{
+	box-shadow: yellow 15px 15px 80px;
+}
