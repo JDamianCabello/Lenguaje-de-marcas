@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl" ?>
+<!DOCTYPE libreria_20-12 SYSTEM "validador.dtd">
+<libreria>
+  <libro cod="1">
+      <titulo>Fuente Ovejuna</titulo>
+      <autor>Lope de Vega</autor>
+      <isbn>84-255-004-7</isbn>
+    <pvp>32</pvp>
+    </libro>  
+    <libro cod="2">
+      <titulo>Programacion en C Sharp</titulo>
+      <autor>Fco. Charte</autor>
+      <isbn>24-25-004-7</isbn>
+      <pvp>52</pvp>
+    </libro>  
+</libreria>

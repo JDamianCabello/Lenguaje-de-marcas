@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl" ?>
+<!-- Instrucción de procesamiento para enlazar con una hoja de estilos-->
+
+<!DOCTYPE libreria [
+<!ENTITY lm "Lenguaje de Marcas y Sistema de Información">
+<!ENTITY cfgs "Ciclo formativo de Grado Superior">
+]>
+
+<?robots index="yes" follow="no" ?> <!-- El robot crea un índice para que las búsquedas sean más rápidas, 
+pero cuando encuentra un enlace, no tiene permiso para que lo indexe (la de los enlaces su web) por el follow="no"-->
+<!-- Esto es un comentario -->
+
+<libreria>
+
+<![CDATA[ 
+    Ejemplo de C# que no se procesará pero sí se mostrará:
+    if (a>b && b<c)
+      Console.Write("jashasjh");
+]]>
+
+  <libro cod="1">
+      <titulo>&lm; </titulo>
+      <etiqueta1>Una etiqueta se pone entre &lt; y &gt;</etiqueta1>
+      <autor>Lope de Vega</autor>
+      <isbn>84-255-004-7</isbn>
+    <pvp>32</pvp>
+    </libro>  
+    <libro cod="2">
+      <titulo>Programacion en C Sharp</titulo>
+      <autor>Fco. Charte</autor>
+      <isbn>24-25-004-7</isbn>
+      <pvp>52</pvp>
+    </libro>  
+</libreria>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<mensaje xmlns="http://www.eliseo.es" xmlns:tuyo="http://tuyo.es">
+  <para>Antonio Gil</para>
+  <de>Susana Dias</de>
+  <cabecera>Fecha de la cita</cabecera>
+  <contenido>Te confirmo la fecha del 22/01/2018</contenido>
+  
+  <tuyo:comentario>Aqui va tu comentario</tuyo:comentario>
+</mensaje>
