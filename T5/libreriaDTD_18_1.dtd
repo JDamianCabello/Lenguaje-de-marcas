@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!--opcional-->
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (titulo, autor, isbn,pvp)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ATTLIST libro cod(1 | 2 | 3) #REQUIRED> <!--REQUIRED indica que es obligatorio, despues de decir el atributo se especifica que solo es 1 o 2 o 3-->

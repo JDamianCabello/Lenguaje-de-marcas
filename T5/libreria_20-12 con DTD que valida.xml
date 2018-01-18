@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/xsl" href="estilo.xsl" ?>
-<!DOCTYPE libreria_20-12[
+
+<!DOCTYPE libreria[
+
 <!ELEMENT libreria (libro+)>
 <!ELEMENT libro (titulo, autor, isbn,pvp)>
 <!ELEMENT titulo (#PCDATA)>
@@ -9,6 +11,7 @@
 <!ELEMENT pvp (#PCDATA)>
 <!ATTLIST libro cod (1 | 2 | 3) #REQUIRED>
 ]>
+
 <libreria>
   <libro cod="1">
       <titulo>Fuente Ovejuna</titulo>
