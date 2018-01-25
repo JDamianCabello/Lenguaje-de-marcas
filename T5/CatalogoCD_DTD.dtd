@@ -1,0 +1,9 @@
+<!ELEMENT catalogo (cd+)>
+<!ELEMENT cd (nombre, titulo, precio, anio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+
+
+<!ATTLIST cd cod CDATA "0">

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Se pede añadir un DTD pulsando arriba en XML>Asociar>System DTD y lo buscamos-->
+<!--Deberemos quitar la ruta absoluta y ponerla relativa-->
+<!DOCTYPE catalogo SYSTEM "CatalogoCD_DTD.dtd">
+<catalogo>
+  <cd>
+    <nombre>Rammstein</nombre>
+    <titulo>mutter</titulo>
+    <precio>18</precio>
+    <anio>2001</anio>
+  </cd>
+
+
+  <cd cod="100">
+    <nombre>Pink Floid</nombre>
+    <titulo>The dark side of the mon</titulo>
+    <precio>25</precio>
+    <anio>1985</anio>
+  </cd>
+  
+<!--Más cds-->
+
+
+</catalogo>
