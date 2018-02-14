@@ -1,0 +1,7 @@
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (titulo, autores, isbn, pvp)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>

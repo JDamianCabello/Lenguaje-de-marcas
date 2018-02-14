@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ejem_metodo>
+
+<framework>NET. Framework 4.5
+
+  <clase> Circulo
+    <metodo>
+      <ambito>public</ambito>
+      <static></static>
+      <tipo_valor_devuelto>int</tipo_valor_devuelto>
+      <nombre_metodo>AreaCirculo</nombre_metodo>
+      <parametros>(radio)</parametros>
+      <accion>return pi * r^2;</accion>
+    </metodo>
+  </clase>
+
+  <clase> Triangulo
+    <metodo>
+      <ambito>public</ambito>
+      <static></static>
+      <tipo_valor_devuelto>int</tipo_valor_devuelto>
+      <nombre_metodo>AreaTringulo</nombre_metodo>
+      <parametros>(base,altura)</parametros>
+      <codContenido>return base*altura/2; </codContenido>
+      <comentario>Devuelve el area de un triangulo</comentario>
+    </metodo>
+  </clase>
+
+  <clase>Cuadrado
+    <metodo>
+      <ambito>public</ambito>
+      <static></static>
+      <tipo_valor_devuelto>int</tipo_valor_devuelto>
+      <nombre_metodo>AreaCuadrado</nombre_metodo>
+      <parametros>lado</parametros>
+      <codContenido>return lado*lado; </codContenido>
+      <comentario>Devuelve el area de un cuadrado</comentario>
+    </metodo>
+  </clase>
+    
+</framework>
+
+</ejem_metodo>

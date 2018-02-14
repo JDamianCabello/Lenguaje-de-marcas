@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE xxx SYSTEM "tipoAtributos.dtd">
+<xxx>
+  <aaa valor="a1"></aaa>
+  <aaa valor="a2"></aaa>
+  <aaa valor="a3"></aaa>
+  
+  <bbb id1="b001"></bbb>
+  <ccc referencia="a3"></ccc>
+  
+  <ddd referencia="a1 b001 a2"></ddd>
+  <eee dato="Hola caracola * € $ %">aa</eee>
+
+</xxx>
+
+
+
+
+

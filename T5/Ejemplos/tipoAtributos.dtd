@@ -1,0 +1,14 @@
+<!ELEMENT xxx (aaa+,bbb+,ccc+,ddd+,eee)>
+<!ELEMENT aaa (#PCDATA)>
+<!ELEMENT bbb (#PCDATA)>
+<!ELEMENT ccc (#PCDATA)>
+<!ELEMENT ddd (#PCDATA)>
+
+<!ELEMENT eee (#PCDATA)>
+
+<!ATTLIST aaa valor ID #REQUIRED>
+<!ATTLIST bbb id1 ID #REQUIRED>
+<!ATTLIST ccc referencia IDREF #REQUIRED>
+<!ATTLIST ddd referencia IDREFS #REQUIRED>
+
+<!ATTLIST eee dato CDATA #IMPLIED>

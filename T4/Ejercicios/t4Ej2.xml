@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos>
+  <alumno>
+    <cod>1</cod>
+    <apellido1>Perez</apellido1>
+    <apellido2>Ortiz</apellido2>
+    <nombre>Francisco</nombre>
+    <direccion>C/ El Palomino</direccion>
+    <telefono>625412356</telefono>
+    <sexo>V</sexo>
+    <telmovil>621541250</telmovil>
+    <fecha>
+      <dia>01</dia>    
+      <mes>02</mes>
+      <ano>2000</ano>
+    </fecha>
+  </alumno>
+  
+  <alumno>
+    <cod>2</cod>
+    <apellido1>Jimenez</apellido1>
+    <apellido2>Sanchez</apellido2>
+    <nombre>Laura</nombre>
+    <direccion>C/ La Palomina</direccion>
+    <telefono>952623141</telefono>
+    <sexo>H</sexo>
+    <telmovil>621541251</telmovil>
+    <fecha>
+      <dia>02</dia>    
+      <mes>03</mes>
+      <ano>2000</ano>
+    </fecha>
+  </alumno>
+  
+  <alumno>
+    <cod>3</cod>
+    <apellido1>Martos</apellido1>
+    <apellido2>Jimenez</apellido2>
+    <nombre>Vicente</nombre>
+    <direccion>C/ B13</direccion>
+    <telefono>952623143</telefono>
+    <sexo>V</sexo>
+    <telmovil>621541252</telmovil>
+    <fecha>
+      <dia>04</dia>    
+      <mes>12</mes>
+      <ano>2000</ano>
+    </fecha>
+  </alumno>
+  
+  <alumno>
+    <cod>4</cod>
+    <apellido1>Ramos</apellido1>
+    <apellido2>Aranda</apellido2>
+    <nombre>Javier</nombre>
+    <direccion>C/ Principal</direccion>
+    <telefono>952623145</telefono>
+    <sexo>V</sexo>
+    <telmovil>621541253</telmovil>
+    <fecha>
+      <dia>15</dia>    
+      <mes>01</mes>
+      <ano>2000</ano>
+    </fecha>
+  </alumno>
+  
+  <alumno>
+    <cod>5</cod>
+    <apellido1>Medina</apellido1>
+    <apellido2>Fernandez</apellido2>
+    <nombre>Marina</nombre>
+    <direccion>C/ Camino del Albero</direccion>
+    <telefono>952623148</telefono>
+    <sexo>H</sexo>
+    <telmovil>621541254</telmovil>
+    <fecha>
+      <dia>26</dia>    
+      <mes>08</mes>
+      <ano>2000</ano>
+    </fecha>
+  </alumno>
+</alumnos>

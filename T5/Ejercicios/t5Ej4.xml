@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bar SYSTEM "t5Ej4.dtd">
+
+
+<!--
+Usa el documento XML que almacena la información de los tickets de un bar. La información de cada tickets es:
+número de tickets, fecha, hora, nombre camarero, unidades y productos consumidos, precio de cada producto y
+total del tickets. En el documento incluye cinco tickets distintos con distintas consumiciones. Comprueba que es
+válido con el DTD externo creado por ti. 
+-->
+
+
+<bar>
+	<ticket numeroTicket="1">
+		<fecha>02/01/2018</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>2.10</precio_total>
+	</ticket>
+
+	<ticket numeroTicket="2">
+		<fecha>03/01/2018</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>2.10</precio_total>
+	</ticket>
+
+	<ticket numeroTicket="3">
+		<fecha>03/01/2018</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>2</cantidad>
+      </producto>
+      <producto numLinea="3">
+        <nombre>Zumo naranja natural</nombre>
+        <precio>1.30</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>4.50</precio_total>
+	</ticket>
+
+</bar>

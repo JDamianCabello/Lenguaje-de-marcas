@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE censo SYSTEM "t5Ej7.dtd">
+
+
+<censo>
+  <provincial>
+    <provincia idProvincia="29">
+      <nombreProvincia>Málaga</nombreProvincia>
+      <municipios>
+        <municipio idMunicipio="001">
+          <nombreMunicipio>Alameda</nombreMunicipio>
+          <poblacion_total>5486</poblacion_total>
+          <varones>2736</varones>
+          <mujeres>2750</mujeres>
+        </municipio>
+        <municipio idMunicipio="002">
+          <nombreMunicipio>Alcaucín</nombreMunicipio>
+          <poblacion_total>2668</poblacion_total>
+          <varones>1344</varones>
+          <mujeres>1324</mujeres>
+        </municipio>
+        <municipio idMunicipio="003">
+          <nombreMunicipio>Alfarnate</nombreMunicipio>
+          <poblacion_total>1338</poblacion_total>
+          <varones>691</varones>
+          <mujeres>647</mujeres>
+        </municipio>
+        <municipio idMunicipio="004">
+          <nombreMunicipio>Alfarnatejo</nombreMunicipio>
+          <poblacion_total>543</poblacion_total>
+          <varones>274</varones>
+          <mujeres>269</mujeres>
+        </municipio>
+        <municipio idMunicipio="005">
+          <nombreMunicipio>Algarrobo</nombreMunicipio>
+          <poblacion_total>6350</poblacion_total>
+          <varones>3182</varones>
+          <mujeres>3168</mujeres>
+        </municipio>
+        <municipio idMunicipio="006">
+          <nombreMunicipio>Algatocín</nombreMunicipio>
+          <poblacion_total>937</poblacion_total>
+          <varones>475</varones>
+          <mujeres>462</mujeres>
+        </municipio>
+        <municipio idMunicipio="007">
+          <nombreMunicipio>Alhaurín de la Torre</nombreMunicipio>
+          <poblacion_total>35832</poblacion_total>
+          <varones>17939</varones>
+          <mujeres>17893</mujeres>
+        </municipio>
+        <municipio idMunicipio="008">
+          <nombreMunicipio>Alhaurín el Grande</nombreMunicipio>
+          <poblacion_total>23675</poblacion_total>
+          <varones>11913</varones>
+          <mujeres>11762</mujeres>
+        </municipio>
+        <municipio idMunicipio="009">
+          <nombreMunicipio>Almáchar</nombreMunicipio>
+          <poblacion_total>1899</poblacion_total>
+          <varones>970</varones>
+          <mujeres>929</mujeres>
+        </municipio>
+        <municipio idMunicipio="010">
+          <nombreMunicipio>Almargen</nombreMunicipio>
+          <poblacion_total>2137</poblacion_total>
+          <varones>1067</varones>
+          <mujeres>1070</mujeres>
+        </municipio>
+        <municipio idMunicipio="011">
+          <nombreMunicipio>Almogía</nombreMunicipio>
+          <poblacion_total>4257</poblacion_total>
+          <varones>2183</varones>
+          <mujeres>2074</mujeres>
+        </municipio>
+        <municipio idMunicipio="012">
+          <nombreMunicipio>Álora</nombreMunicipio>
+          <poblacion_total>13474</poblacion_total>
+          <varones>6773</varones>
+          <mujeres>6701</mujeres>
+        </municipio>
+      </municipios>
+    </provincia>
+  </provincial>
+</censo>

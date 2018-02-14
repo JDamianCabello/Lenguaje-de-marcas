@@ -1,0 +1,15 @@
+<!ELEMENT bar (ticket+)>
+<!ELEMENT ticket (fecha, hora, camarero, productos_consumidos, precio_total)>
+<!ATTLIST ticket
+          numeroTicket CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT camarero (#PCDATA)>
+<!ELEMENT productos_consumidos (producto+)>
+<!ELEMENT producto (nombre, precio, cantidad)>
+<!ATTLIST producto
+          numLinea CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio_total (#PCDATA)>

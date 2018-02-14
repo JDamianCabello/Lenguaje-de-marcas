@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<alumnos>
+	<alumno cod="1">
+	 <id type="PrimaryKey">1</id>
+	 <dni>53801043E</dni>
+	 <cp>29780</cp>
+	 <fnac>15/04/1902</fnac>
+	 <tlfno>952523987</tlfno>
+	 <dir>C/ Bronce, 0005</dir>
+	 <ape1>Acosta</ape1>
+	 <cod>355181</cod>
+	 <email>josenerja692@gmail.com</email>
+	 <ape2>Martín</ape2>
+	 <nombre type="FK">José Miguel</nombre>
+	</alumno>
+
+	<alumno cod="2">
+	 <id type="PrimaryKey">2</id>
+	 <dni>94855003P</dni>
+	 <cp>29730</cp>
+	 <fnac>17/11/1979</fnac>
+	 <tlfno>630351149</tlfno>
+	 <dir>C/ Valdés Leal, 3</dir>
+	 <ape1>Ávila</ape1>
+	 <cod>42380327</cod>
+	 <email>igor.avila.exposito@gmail.com</email>
+	 <ape2>Expósito</ape2>
+	 <nombre type="FK">Igor</nombre>
+	</alumno>
+
+	<alumno cod="3">
+	 <id type="PrimaryKey">3</id>
+	 <dni>74867150Y</dni>
+	 <cp>29004</cp>
+	 <fnac>18/01/1986</fnac>
+	 <tlfno>616523326</tlfno>
+	 <dir>C/ Ntra. Sra. De las Candelas, 10 2 A</dir>
+	 <ape1>Barrales</ape1>
+	 <cod>1126550</cod>
+	 <email></email>
+	 <ape2>Moreno</ape2>
+	 <nombre type="FK">Carlos</nombre>
+	</alumno>
+
+	<alumno cod="4">
+	 <id type="PrimaryKey">4</id>
+	 <dni>74893110N</dni>
+	 <cp>29013</cp>
+	 <fnac>09/05/1988</fnac>
+	 <tlfno>952611412</tlfno>
+	 <dir>C/ Cuba, 0004 2 E</dir>
+	 <ape1>De la Torre</ape1>
+	 <cod>388261</cod>
+	 <email>scottie.bullman.73@gmail.com</email>
+	 <ape2>Barranquero</ape2>
+	 <nombre type="FK">Santiago</nombre>
+	</alumno>
+
+	<alumno cod="5">
+	 <id type="PrimaryKey">5</id>
+	 <dni>76874334K</dni>
+	 <cp>290004</cp>
+	 <fnac>31/07/1992</fnac>
+	 <tlfno>952722929</tlfno>
+	 <dir>C/ Juan Martínez Montañez, 2 5 3º A;</dir>
+	 <ape1>Díaz</ape1>
+	 <cod>582753</cod>
+	 <email></email>
+	 <ape2>Molina</ape2>
+	 <nombre type="FK">Iván</nombre>
+	</alumno>
+</alumnos>

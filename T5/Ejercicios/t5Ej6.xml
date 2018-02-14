@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bailes SYSTEM "t5Ej6.dtd">
+
+
+<Bailes>
+  <descripcion>Cursos de baile</descripcion>
+  <persona_de_contacto>Damián Cabello</persona_de_contacto>
+  
+  <baile id="1">
+    <nombre>Ballet</nombre>
+    <precio cuota="mensual" moneda="euro">10</precio>
+    <plazas>50</plazas>
+    <comienzo>07-02-2018</comienzo>
+    <fin>10-02-2018</fin>
+    <profesor>Pepe</profesor>
+    <sala>1</sala>
+  </baile>
+  
+  <baile id="2">
+    <nombre>Rap</nombre>
+    <precio cuota="mensual" moneda="euro">9999</precio>
+    <plazas>20</plazas>
+    <comienzo>07-02-2018</comienzo>
+    <fin>10-02-2018</fin>
+    <profesor>sebastian</profesor>
+    <sala>9</sala>
+  </baile>
+  
+  
+  <baile id="3">
+    <nombre>Programa mientras bailas</nombre>
+    <precio cuota="anual" moneda="euro">9999999999</precio>
+    <plazas>3</plazas>
+    <comienzo>07-02-2018</comienzo>
+    <fin>10-02-2018</fin>
+    <profesor>Eliseo</profesor>
+    <sala>19</sala>
+  </baile>
+
+
+</Bailes>

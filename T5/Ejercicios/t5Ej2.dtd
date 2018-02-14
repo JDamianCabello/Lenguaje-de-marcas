@@ -1,0 +1,14 @@
+<!ELEMENT ejem_metodo (framework)>
+<!ELEMENT framework (versionFramework, clase+)>
+<!ELEMENT versionFramework (#PCDATA)>
+<!ELEMENT clase (nombre, metodo+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT metodo (ambito, static, tipo_valor_devuelto, nombre_metodo, parametros, codContenido?, comentario?, accion?)>
+<!ELEMENT ambito (#PCDATA)>
+<!ELEMENT static ANY>
+<!ELEMENT tipo_valor_devuelto (#PCDATA)>
+<!ELEMENT nombre_metodo (#PCDATA)>
+<!ELEMENT parametros (#PCDATA)>
+<!ELEMENT accion (#PCDATA)>
+<!ELEMENT codContenido (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>

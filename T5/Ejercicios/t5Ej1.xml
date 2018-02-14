@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "t5Ej1.dtd">
+
+<alumnos>
+
+  <alumno>
+    <cod>1</cod>
+    <apellido1>Perez</apellido1>
+    <apellido2>Ortiz</apellido2>
+    <nombre>Francisco</nombre>
+    <direccion>C/ El Palomino</direccion>
+    <telefono>625412356</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>2</cod>
+    <apellido1>Jimenez</apellido1>
+    <apellido2>Sanchez</apellido2>
+    <nombre>Laura</nombre>
+    <direccion>C/ La Palomina</direccion>
+    <telefono>952623141</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>3</cod>
+    <apellido1>Martos</apellido1>
+    <apellido2>Jimenez</apellido2>
+    <nombre>Vicente</nombre>
+    <direccion>C/ B13</direccion>
+    <telefono>952623143</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>4</cod>
+    <apellido1>Ramos</apellido1>
+    <apellido2>Aranda</apellido2>
+    <nombre>Javier</nombre>
+    <direccion>C/ Principal</direccion>
+    <telefono>952623145</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>5</cod>
+    <apellido1>Medina</apellido1>
+    <apellido2>Fernandez</apellido2>
+    <nombre>Jose</nombre>
+    <direccion>C/ Camino del Albero</direccion>
+    <telefono>952623148</telefono>
+  </alumno>
+  
+</alumnos>

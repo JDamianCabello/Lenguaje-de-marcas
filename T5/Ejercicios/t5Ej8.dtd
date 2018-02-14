@@ -1,0 +1,7 @@
+<!ELEMENT html (head, body)>
+<!ELEMENT head (title)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT body (p|a)*>
+<!ELEMENT p (#PCDATA|a)*>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED>

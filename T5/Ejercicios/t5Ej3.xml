@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "t5Ej3.dtd">
+
+
+<!--Define un documento XML y su DTD externo, que permita representar una colección de libros que incluye lo
+típico: título, autores (elementos separados), editorial, fecha de la publicación, isbn, etc. Incluye algunos libros y
+comprueba en un explorador que está bien formado y que es válido. 
+-->
+
+
+<libreria>
+  <libro>
+      <titulo>Fuente Ovejuna</titulo>
+      <autores>
+        <autor>Lope de Vega</autor>
+      </autores>
+      <isbn>84-255-004-7</isbn>
+      <pvp>32</pvp>
+    </libro>
+    
+    
+    <libro>
+      <titulo>Programacion en C Sharp</titulo>
+      <autores>
+        <autor>Fco. Charte</autor>
+      </autores>
+      <isbn>24-25-004-7</isbn>
+      <pvp>52</pvp>
+    </libro>
+
+    <libro>
+      <titulo>Desarrollo tecnico del tulevasi</titulo>
+      <autores>
+        <autor>Javier</autor>
+        <autor>Damian</autor>
+        <autor>Juanma</autor>
+      </autores>
+      <isbn>01-38-984-2</isbn>
+      <pvp>9999</pvp>
+    </libro>
+</libreria>

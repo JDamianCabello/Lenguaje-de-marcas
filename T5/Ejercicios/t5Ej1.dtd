@@ -1,0 +1,8 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (cod, apellido1, apellido2, nombre, direccion, telefono)>
+<!ELEMENT cod (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>

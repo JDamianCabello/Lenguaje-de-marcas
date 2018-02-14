@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE libreria[
+
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (titulo,autor,editorial,fecha_publicacion,isbn,pvp)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+
+]>
+
+<libreria>
+  <libro>
+    <titulo>Fuente Ovejuna</titulo>
+    <autor>Lope de Vega</autor>
+    <editorial>Santillana</editorial>
+    <fecha_publicacion>15/05/1700</fecha_publicacion>
+    <isbn>84-589-1236</isbn>
+    <pvp>35 €</pvp>
+  </libro>
+  
+  <libro>
+    <titulo>Programacion en C#</titulo>
+    <autor>Francisco Charte</autor>
+    <editorial>Mac Millan</editorial>
+    <fecha_publicacion>14/05/2002</fecha_publicacion>
+    <isbn>84-589-1454</isbn>
+    <pvp>55 €</pvp>
+  </libro>
+  
+  <libro>
+    <titulo>Fui al rio y la perdi</titulo>
+    <autor>Damian Cabello</autor>
+    <editorial>Barquito Azul</editorial>
+    <fecha_publicacion>11/03/1560</fecha_publicacion>
+    <isbn>84-589-1311</isbn>
+    <pvp>30 €</pvp>
+  </libro>
+</libreria>

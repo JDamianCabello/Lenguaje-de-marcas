@@ -1,0 +1,14 @@
+<!ELEMENT censo (provincial)>
+<!ELEMENT provincial (provincia)>
+<!ELEMENT provincia (nombreProvincia, municipios)>
+<!ATTLIST provincia
+          idProvincia CDATA #REQUIRED>
+<!ELEMENT nombreProvincia (#PCDATA)>
+<!ELEMENT municipios (municipio+)>
+<!ELEMENT municipio (nombreMunicipio, poblacion_total, varones, mujeres)>
+<!ATTLIST municipio
+          idMunicipio CDATA #REQUIRED>
+<!ELEMENT nombreMunicipio (#PCDATA)>
+<!ELEMENT poblacion_total (#PCDATA)>
+<!ELEMENT varones (#PCDATA)>
+<!ELEMENT mujeres (#PCDATA)>

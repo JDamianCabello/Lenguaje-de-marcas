@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<bar>
+	<ticket cod="1">
+		<fecha>02/01/2018</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>café;pitufo mixto</productos_consumidos>
+		<unidades>1,1</unidades>
+		<precio_producto>0.80;1.20</precio_producto>
+		<precio_total>2.00</precio_total>
+	</ticket>
+
+	<ticket cod="2">
+		<fecha>02/01/2018</fecha>
+		<hora>11:10</hora>
+		<camarero>Pepe Romero</camarero>
+		<productos_consumidos>café;té;pitufo aceite y tomate</productos_consumidos>
+		<unidades>1;1;2</unidades>
+		<precio_producto>0.80;0.70;1.00</precio_producto>
+		<precio_total>3.50</precio_total>
+	</ticket>
+
+	<ticket cod="3">
+		<fecha>02/01/2018</fecha>
+		<hora>12:10</hora>
+		<camarero>Javier Garcia</camarero>
+		<productos_consumidos>colacao;pitufo mixto</productos_consumidos>
+		<unidades>1;1</unidades>
+		<precio_producto>0.85;1.20</precio_producto>
+		<precio_total>2.05</precio_total>
+	</ticket>
+
+	<ticket cod="4">
+		<fecha>02/01/2018</fecha>
+		<hora>14:20</hora>
+		<camarero>María Jimenez</camarero>
+		<productos_consumidos>caña;tapa de paella</productos_consumidos>
+		<unidades>2;2</unidades>
+		<precio_producto>0.80;1.70</precio_producto>
+		<precio_total>5.00</precio_total>
+	</ticket>
+
+	<ticket cod="5">
+		<fecha>02/01/2018</fecha>
+		<hora>18:00</hora>
+		<camarero>Natalia Beltrán</camarero>
+		<productos_consumidos>cafe;croissant</productos_consumidos>
+		<unidades>1;1</unidades>
+		<precio_producto>0.80;1.00</precio_producto>
+		<precio_total>1.80</precio_total>
+	</ticket>
+</bar>

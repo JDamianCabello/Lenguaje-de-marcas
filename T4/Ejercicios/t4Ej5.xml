@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<libreria>
+  <libro>
+    <titulo>Fuente Ovejuna</titulo>
+    <autores>
+      <autor>Lope de Vega</autor>
+    </autores>
+    <editorial>Santillana</editorial>
+    <fecha_publicacion>2012-02-03</fecha_publicacion>
+    <isbn>84-589-1236</isbn>
+    <pvp>35 €</pvp>
+  </libro>
+  
+  <libro>
+    <titulo>Programacion en C#</titulo>
+    <autores>
+      <autor>Francisco Charte</autor>
+    </autores>
+    <editorial>Mac Millan</editorial>
+    <fecha_publicacion>2012-05-03</fecha_publicacion>
+    <isbn>84-589-1454</isbn>
+    <pvp>55 €</pvp>
+  </libro>
+  
+  <libro>
+    <titulo>Fui al rio y la perdi</titulo>
+    <autores>
+      <autor>Damian Cabello</autor>
+    </autores>
+    <editorial>Barquito Azul</editorial>
+    <fecha_publicacion>2012-06-03</fecha_publicacion>
+    <isbn>84-589-1311</isbn>
+    <pvp>30 €</pvp>
+  </libro>
+</libreria>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Bailes (descripcion, persona_de_contacto, baile+)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT persona_de_contacto (#PCDATA)>
+<!ELEMENT baile (nombre, precio, plazas, comienzo, fin, profesor, sala)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+ cuota (trimestral | mensual | anual) #REQUIRED
+ moneda CDATA #FIXED "euro"
+>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT comienzo (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>
+<!ATTLIST baile
+ id (6 | 5 | 4 | 3 | 2 | 1) #REQUIRED
+> 
