@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!--Definición de enumeración fuera del elemento-->
+  <xs:simpleType name="nombresValidos">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Juan"/>
+      <xs:enumeration value="Pepe"/>
+      <xs:enumeration value="Ana"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="nombresValidos"/>
+              <xs:element name="apellidos" type="xs:string"/>
+              <xs:element name="edad">
+              <xs:simpleType>
+                <xs:restriction base="xs:decimal">
+                  <xs:minInclusive value="10"/>
+                  <xs:maxInclusive value="100"/>
+                  <xs:fractionDigits value="5"/>
+                  <xs:totalDigits value="5"/>
+                </xs:restriction>
+              </xs:simpleType>
+              </xs:element>
+              <xs:element name="clave">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[a-z][A-Z][0-9]"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

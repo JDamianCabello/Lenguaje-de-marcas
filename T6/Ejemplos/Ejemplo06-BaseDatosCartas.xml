@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<BDCarta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejemplo06-BaseDatosCartasXSD.xsd">
+  <carta id="100">
+    Estimado sr. <nombre>Damian Cabello</nombre>
+    Le comunico que el próximo <fecha>2018-03-01</fecha> tiene una cita
+    con......
+  </carta>
+</BDCarta>

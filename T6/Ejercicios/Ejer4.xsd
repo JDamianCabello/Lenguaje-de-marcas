@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!--Definición de enumeración fuera del elemento-->
+  <xs:simpleType name="pagoMes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="mensual"/>
+      <xs:enumeration value="semanal"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Bailes">
+    <xs:complexType>
+      <xs:sequence>
+          <xs:element name="baile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                  <xs:element name="precio">
+                  <xs:complexType mixed="true">
+                    <xs:attribute name="cuota" type="xs:pagoMes" use="required"/>
+                    <xs:attribute name="moneda" type="xs:string" fixed="euros"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="plazas" type="xs:string"/>
+                <xs:element name="comienzo" type="xs:string"/>
+                <xs:element name="fin" type="xs:string"/>
+                <xs:element name="profesor" type="xs:string"/>
+                <xs:element name="sala" type="xs:string"/>
+              </xs:sequence>
+              <xs:attribute name="id" type="xs:integer" use="required"/>
+            </xs:complexType>
+          </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

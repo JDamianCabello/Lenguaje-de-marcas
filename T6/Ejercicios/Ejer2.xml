@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejer2.xsd">
+
+  <libro cod="1">
+    <titulo>El señor de los anillos</titulo>
+    <autor>J.R.Tolkien</autor>
+    <editorial>La mia</editorial>
+    <fechaPublicacion>1994-01-14</fechaPublicacion>
+    <isbn>234567890</isbn>
+  </libro>
+  
+    <libro cod="2">
+    <titulo>Otro libro</titulo>
+    <autor>autor 1</autor>
+    <autor>autor 2</autor>
+    <editorial>Una editorial</editorial>
+    <fechaPublicacion>2000-01-01</fechaPublicacion>
+    <isbn>1234567890</isbn>
+  </libro>
+  
+
+
+</libros>

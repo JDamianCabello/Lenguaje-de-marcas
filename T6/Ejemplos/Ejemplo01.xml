@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-
-<mensaje>
+<mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="Ejemplo01.xsd">
   <para>Pepe</para>
   <de>Antonio</de>
   <titulo>Hola Pepe</titulo>
   <cuerpo>Que tal estas</cuerpo>
 </mensaje>
+
+
+
+

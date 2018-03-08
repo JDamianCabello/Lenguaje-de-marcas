@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:group name="datosComunes">
+  <xs:sequence>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="apellidos" type="xs:string"/>
+  </xs:sequence>
+</xs:group>
+
+  <xs:element name="empleados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empleado">
+          <xs:complexType>
+              <xs:group ref="datosComunes"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contratado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellidos" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="temporal">
+          <xs:complexType>
+            <xs:group ref="datosComunes"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

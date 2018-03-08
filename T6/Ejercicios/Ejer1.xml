@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejer1.xsd">
+
+  <alumno>
+    <cod>100</cod>
+    <apellido>Perez</apellido>
+    <apellido>Ortiz</apellido>
+    <nombre>Francisco</nombre>
+    <direccion>C/ El Palomino</direccion>
+    <telefono>+34625412356</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>2000</cod>
+    <apellido>Jimenez</apellido>
+    <apellido>Sanchez</apellido>
+    <nombre>Laura</nombre>
+    <direccion>C/ La Palomina</direccion>
+    <telefono>+34952623141</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>3000</cod>
+    <apellido>Martos</apellido>
+    <apellido>Jimenez</apellido>
+    <nombre>Vicente</nombre>
+    <direccion>C/ B13</direccion>
+    <telefono>+34952623143</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>4000</cod>
+    <apellido>Ramos</apellido>
+    <apellido>Aranda</apellido>
+    <nombre>Javier</nombre>
+    <direccion>C/ Principal</direccion>
+    <telefono>+34952623145</telefono>
+  </alumno>
+  
+  <alumno>
+    <cod>10000</cod>
+    <apellido>Medina</apellido>
+    <apellido>Fernandez</apellido>
+    <nombre>Jose</nombre>
+    <direccion>C/ Camino del Albero</direccion>
+    <telefono>+34952623148</telefono>
+  </alumno>
+  
+</alumnos>

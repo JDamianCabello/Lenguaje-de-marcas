@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="empleados_XSD.xsd">
+  <empleado>
+    <nombre>Pepe</nombre>
+    <apellidos>Gil Gómez</apellidos>
+  </empleado>
+  <contratado>
+    <nombre>Pepe</nombre>
+    <apellidos>Gil Gómez</apellidos>
+  </contratado>
+  <temporal>
+    <nombre>Pepe</nombre>
+    <apellidos>Gil Gómez</apellidos>
+  </temporal>
+</empleados>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejemplo02-Schema.xsd">
+  <cliente id="100">
+    <nombre>Damian</nombre>
+    <apellidos>Cabello</apellidos>
+  </cliente>
+</clientes>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<bar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejer3.xsd">
+
+	<ticket numeroTicket="1">
+		<fecha>2018-01-02</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>2.10</precio_total>
+	</ticket>
+
+	<ticket numeroTicket="2">
+		<fecha>2018-01-03</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>2.10</precio_total>
+	</ticket>
+
+	<ticket numeroTicket="3">
+		<fecha>2018-01-03</fecha>
+		<hora>10:10</hora>
+		<camarero>Juan Martinez</camarero>
+		<productos_consumidos>
+      <producto numLinea="1">
+        <nombre>café</nombre>
+        <precio>1</precio>
+        <cantidad>1</cantidad>
+      </producto>
+      <producto numLinea="2">
+        <nombre>Pitufo Mixto</nombre>
+        <precio>1.10</precio>
+        <cantidad>2</cantidad>
+      </producto>
+      <producto numLinea="3">
+        <nombre>Zumo naranja natural</nombre>
+        <precio>1.30</precio>
+        <cantidad>1</cantidad>
+      </producto>
+		</productos_consumidos>
+		<precio_total>4.50</precio_total>
+	</ticket>
+
+</bar>
